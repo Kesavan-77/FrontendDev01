@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Poppins:wght@300;400;500;700&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+body{
+    background-color: hsl(48,88%,63%);
+    padding:5rem 1rem;
+}
+.container{
+    max-width: 450px;
+    margin-inline:auto;
+    background-color: #fff;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0px black;
+}
+.container .container-1 div img{
+    width:100%;
+    border-radius: 1rem;
+}
+.container .container-2 p.learn{
+    display: inline-block;
+    background-color: hsl(48,88%,63%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 3px 8px;
+    margin: 1.5rem 0 1rem;
+    border-radius: 3px;
+}
+.container .container-2 p.year{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+.container .container-2 h1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container .container-2 h1:hover{
+    color:hsl(48,88%,63%);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container .container-2 p.content{
+    color:rgb(74, 74, 74);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.container .container-2 ul{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1rem;
+    gap: 1rem;
+}
